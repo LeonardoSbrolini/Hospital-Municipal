@@ -1,0 +1,9 @@
+.bannerText{
+    margin: 2rem 0 2rem 0;
+}
+
+.bannerText .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

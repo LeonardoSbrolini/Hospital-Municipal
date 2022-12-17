@@ -1,0 +1,35 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color);
+}
+
+.Navbar .Logo{
+    margin-left: 1rem;
+}
+
+.Navbar .User{
+    margin-right: 1rem;
+}
+
+.Navbar .User img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.Options a {
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    margin-right: 10px;
+    background-color: var(--second-color);
+    transition:ease 0.5s;
+}
+
+.Options a:hover{
+    background-color: var(--hover-color);
+}
+
+.Conteudo {
+    margin:0 5rem 0 5rem;
+}

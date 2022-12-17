@@ -1,0 +1,24 @@
+
+  //   const deleteCategoria = async (id) => {
+  //     const categoriaDoc = doc(db, 'Categorias', id);
+  //     await deleteDoc(categoriaDoc,id);
+  //     setCategoria(() => categoria.filter(item => item.id != id))
+  //   }
+
+  //   const createCategoria = async () => {
+  //     const teste = await addDoc(categoriaCollectionRef, { Categoria: newCategoria });
+  //     const testeCategoria = {id:teste.id, Categoria:newCategoria}
+  //     setCategoria(() => [...categoria, testeCategoria])
+  //   }
+
+  //   const updateCategoria = async (id, categorias) => {
+
+  //     const categoriaDoc = doc(db, 'Categorias', id)
+  //     const newFields = {Categoria: categorias + '1'}
+  //     await updateDoc(categoriaDoc,newFields)
+  //     setCategoria((state) => {
+  //       const index = state.findIndex(item => item.id == id)
+  //       state[index].Categoria = newFields.Categoria
+  //       return [...state]
+  //     })
+  //   }
